@@ -14,6 +14,7 @@ export const colors = {
   yellow: { 500: "#FED041" },
 
   purple: {
+    200: "#7c3afd",
     300: "#7c3afd",
     400: "#7c3afd",
     500: "#7c3afd",
