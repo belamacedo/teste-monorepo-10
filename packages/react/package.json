@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@teste-monorepo-10/tokens": "*",
     "@teste-monorepo-10/ts-config": "*",
