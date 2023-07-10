@@ -1,0 +1,5 @@
+{
+    "extends":"@teste-monorepo-10/ts-config/react.json",
+    "include": ["src", "src/index.tsx"],
+    "compilerOptions": {"jsx": "react"}
+}

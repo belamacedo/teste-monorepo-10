@@ -1,0 +1,24 @@
+{
+  "name": "@teste-monorepo-10/react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.tsx --format esm,cjs --dts",
+    "dev": "tsup src/index.tsx --format esm,cjs --dts --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@teste-monorepo-10/tokens": "*",
+    "@teste-monorepo-10/ts-config": "*",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "react": "^18.2.0",
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6"
+  }
+}
